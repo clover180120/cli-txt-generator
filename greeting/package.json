@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "pkg index.js -o .bin/greeting",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "greeting": "./.bin/greeting"
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",
