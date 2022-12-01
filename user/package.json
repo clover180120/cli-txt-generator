@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "greeting": "greeting",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@clairelin/greeting": "^1.0.2",
     "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4"
   }
